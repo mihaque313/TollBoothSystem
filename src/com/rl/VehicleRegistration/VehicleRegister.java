@@ -128,13 +128,13 @@ public class VehicleRegister extends HttpServlet {
 			         cell = (Cell) cellIterator.next();
 			        if (k > 7)
 			         break;
-			        switch (cell.getCellType()) {
+			        /*switch (cell.getCellType()) {
 			        case Cell.CELL_TYPE_STRING:
 			         ps.setString(k, cell.getStringCellValue());
 			         break;
 			        case Cell.CELL_TYPE_NUMERIC:
 			         ps.setInt(k, (int) cell.getNumericCellValue());
-			        }
+			        }*/
 			        flag = 1;
 			        k++;
 			       }
